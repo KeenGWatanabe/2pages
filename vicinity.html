@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vicinity@studio</title>
+  <link href="http://www.realty365homes.com/favicon.ico" rel="icon" type="image/x-icon">
+  <link rel="stylesheet" href="style-vicinity.css">
+
+<meta content="width=device-width, initial-scale=1" name="viewport"></meta>
+
+
+
+</head>
+<body>
+
+<h3>The Vicinity</h3><p>Call direct to deal</p>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 6</div>
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQMDJruj_LO-poiE8QbQCrsg1hyJkPZZ14AeOUrM6o7KmsAEohq70EBL9__fRKvsRSPwlrgU8cVSHuDCukiZzqy1fKbxonYc27X7VIJ7f16kJbzDuMSH0OFAAQiCpUpCQUMmMuJ4v_1XeVgNlU-H_WU6j6xU_TWH1cM3SK-gxJo7dykUjP1B2i9YL38Q/s960/v1a.jpg" style="width: 100%;" />
+  <!--div class="text"></div-->
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 6</div>
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgD6EabAGWBVxHPL9Y_yk6xNIjofAr4l2Go2Jk79qWu4yhEYmtBVLEdOa3CG8xit7TBzds_dUPdzsZeWTwpv3ue3qenUehbNC_8siO7kWjW8kM4DowD5yw8jHGps3XuyeHlN1knlrazcoLN2pERHU5FxeZ2UvBd_Owj5R3Rm0rpjQd4MEk8ysDYiE9sdQ/s960/v1b.jpg" style="width: 100%;" />
+  <!--div class="text">Caption Two</div-->
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 6</div>
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQpvdXAvj18aMKA3AlhBM-KSb5OfSCPf4wl9nrgME93aoIlLnwVjywSV4ADTE-4Sake3FbNE3-ditcMrd9VF33cypW4yppJgE3QJaXdpok4tyKaKZ6k5TSYc0bkBCq_3LOQo5qBGmSgYiEPUe_JZnRaoaa4eEhTidEIVOasXeVXI2INpBgbEJqtmZDeQ/s960/v1c.jpg" style="width: 100%;" />
+  <!--div class="text">Caption Three</div-->
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">4 / 6</div>
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9iOwKYcXJUTxbKm4uHE80b1vWX-Uw54SgXmLFLJXSNUovdVFGaPqV17-LJKOmC5VJOFLVgtHJzrWpUHIfr6RTlxg2_MiIkZ4zxZ9TmfOyzkhqsK0MtWxKb_KwgaRv0U4UwL6cCcNFTYnoUPSjcac5Km5wtzm8dC2yJQuMUkvmkhSlpdG6gFjhIFnY6Q/s960/v1h.jpg" style="width: 100%;" />
+  <div class="text"></div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">5 / 6</div>
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTLhP8tjRfir4FIlgz124k6WrTkSN7ARImFskEluBq6KJxayitz9NiEwmoYWbsAaOEtIqG7RWHcxONn7yichqUYEJCNW3gdQLHSI1DrsYf3Cy75ocv1oRdhVdijVBQ1IQR-LrAQUt7MuLPaT6gHhxkkzerKGYnKGeJUBLkmr13sWh9Sq1c7QYPSWH5Rg/s960/v1f.jpg" style="width: 100%;" />
+  <div class="text"></div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">6 / 6</div>
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhghZUazOElOo2j0HMyMs6-vrm_7RxufGvjlxLgu-JVfucaHKPF9XJ0t1oDyJRZ_3QA3Lv17yIZZZTj2XGiRjfQCf1aP3h1KeZz9y_bu0DBjCL7AkoJKpi-SQR-wjfBEeLejR3E0n7Au9sg7Mi8h-RyNZqal17Q8MkWNwiUwYTSw8hFF3Hsym1zfmQLAg/s960/v1g.jpg" style="width: 100%;" />
+  <div class="text"></div>
+</div>
+</div>
+<br />
+
+<div style="text-align: center;">
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span> 
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000); // Change image every 3 seconds
+}
+</script>
+
+<div><b><br /><span style="color: #444444;"> <span style="font-family: georgia;">Photos are taken in 2018</span> </span>&gt;&nbsp;<br /></b>
+<ul style="text-align: left;"><li><span style="font-family: arial;">Imagine how much have changed in Joo Chiat.</span></li>
+  <li><span style="font-family: arial;">Bus 16 to Orchard, bus 33 to Chinatown,</span></li>
+  <li><span style="font-family: arial;">a whole lot of eateries, gyms, pubs in the vicinity, within an expat community.</span></li>
+  
+
+
+<p><span style="font-family: arial;">view map&nbsp;</span></p>
+<img onclick="hider" border="0"  src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvs3FHy-1mIl_wf8QZl2qJcLbrBs0y0yGV3jSjDjuTc2HfoQBcXaaZt1kFlhHsWl4GxFs5UvmEwBeGNQlB4KedZmSBTxXzz7gAvdkJcjjhMHKQsShhCzO8WSWUOOW8952HoFWX_9QROhZOXDTgxomx7O5AuvLawoAfxSPfs8onmt38UM17QouLPbNpDw/s819/Bus%20Guide-JC.png" width="104"></img>
+<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvs3FHy-1mIl_wf8QZl2qJcLbrBs0y0yGV3jSjDjuTc2HfoQBcXaaZt1kFlhHsWl4GxFs5UvmEwBeGNQlB4KedZmSBTxXzz7gAvdkJcjjhMHKQsShhCzO8WSWUOOW8952HoFWX_9QROhZOXDTgxomx7O5AuvLawoAfxSPfs8onmt38UM17QouLPbNpDw/s819/Bus%20Guide-JC.png" target="_blank"></a>
+<span style="font-family: arial;"><br /></span><p></p>
+
+
+  
+
+</div>
+2019 Designed by <button class="logo-button" style='background-color: green; height: 20px; width: 60px; color: white; border-color:green; border-radius: 8px; font-weight: 20; font-size: 10px; margin-top: 5px;' onclick='hider'><a href="https://www.mckeen.sg/2022/10/webpagedevelopment1000.html" rel="noopener noreferrer" style='color: white;' >mckeen</a></button> a fintech company
+<!--statcounter-->
+  <span id="sfckajbtpqtm5kbnu548gqeldxgkgyw3tm8"></span>
+  <script type="text/javascript" src="https://counter4.optistats.ovh/private/counter.js?c=kajbtpqtm5kbnu548gqeldxgkgyw3tm8&down=async" async></script>
+  <noscript><a href="https://www.freecounterstat.com" title="free counters for websites"><img src="https://counter4.optistats.ovh/private/freecounterstat.php?c=kajbtpqtm5kbnu548gqeldxgkgyw3tm8" border="0" title="free counters for websites" alt="free counters for websites"></a></noscript>
+  
+
+
+ </body></html>
