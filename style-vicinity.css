@@ -71,4 +71,6 @@
   @media only screen and (max-width: 300px; max-height: 450px;) {
     .text {font-size: 11px}
   }
-  
+  .v-p1{
+    width: 500px;
+  }
