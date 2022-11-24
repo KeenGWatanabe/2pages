@@ -3,11 +3,15 @@
 * {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
 .mySlides {display: none;}
-img {vertical-align: middle;}
+img {
+  display: grid; 
+  width: 100%;
+  grid-template-columns: 1fr;
+}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: auto;
+  width: 100%;
   height: auto;
   position: center;
   margin: auto;
@@ -65,10 +69,7 @@ img {vertical-align: middle;}
   .text {font-size: 11px}
 }
 
-.main-text-grid {
-  display: grid;
-  grid-template-columns: 100px 1fr;
-}
+
 .logo-button:hover{
 opacity: 0.5;
 }
