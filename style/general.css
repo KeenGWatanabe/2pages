@@ -6,4 +6,7 @@ p {
 
 body {
   margin: 0;
-}
+  background-color: lightgrey;
+  padding-left: 20px;
+  padding-right: 25px;
+} 
