@@ -52,21 +52,22 @@
 }
 .search-button {
   height: 10px;
-  width: 22px;
+  width: 19px;
   position: relative;
-  
   margin-left: -4px;
+  margin-top: 10px;
   
 }
 .search-button .search-icon {
   position: absolute;
-  margin-top: -17px;
+  margin-top: -16px;
   margin-left: -11px;
   
 }
 .search-button .video-icon {
-  margin-top: -14px;
+  margin-top: -15px;
   margin-left: -12px;
+  border-radius: 20px;
   position: absolute;
 }
 .search-button .tooltip{
